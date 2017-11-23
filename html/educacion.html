@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-available=no">
+    <title>CV</title>
+  </head>
+  <body>
+    <header>
+      <svg><image xlink:href="../img/Logo.svg" width="200"></image></svg>
+      <h1>Curriculum Vitae</h1>
+      <h2>Carmen Lima Zárate</h2>
+    </header>
+    <navbar>
+      <ul>
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="educacion.html">Educación</a></li>
+        <li><a href="experiencia.html">Experiencia</a></li>
+      </ul>
+    </navbar>
+    <h2>Educación</h2>
+      <table border="1" cellpadding="7" cellspacing="0">
+        <tr>
+          <th>Año</th>
+          <th>Institución</th>
+          <th>Lugar</th>
+          <th>¿Culminó?</th>
+        </tr>
+        <tr>
+          <td>2000</td>
+          <td>Universidad Tecnológica del Perú</td>
+          <td>Lima</td>
+          <td align="center">Sí</td>
+        </tr>
+        <tr>
+          <td>2010</td>
+          <td>Next_U</td>
+          <td>Online</td>
+          <td align="center">Sí</td>
+        </tr>
+      </table>
+      </br>
+    <h2>Agregar Estudios</h2>
+      <form>
+        <p>
+          <label for="anio"><strong>Año:</strong></label>
+          <select name="anio">
+            <option value="1">2010</option>
+            <option value="1">2011</option>
+            <option value="1">2012</option>
+            <option value="1">2013</option>
+            <option value="1">2014</option>
+            <option value="1">2015</option>
+            <option value="1">2016</option>
+            <option value="1">2017</option>
+          </select>
+        </p>
+        <p>
+          <label for="institucion"><strong>Institución:</strong></label>
+          <input id="institucion" type="text" size="45" required/>
+        </p>
+        <p>
+          <label for="lugar"><strong>Lugar:</strong></label>
+          <textarea id="lugar" name="area_texto" rows="5" cols="51" required></textarea>
+        </p>
+        <p>
+          <label for="termino"><strong>¿Culminó?</strong></label>
+          <input type="radio" name="termino" value="si"/>Sí
+          <input type="radio" name="termino" value="no"/>No
+        </p>
+          <input type="submit" value="Enviar"/>
+      </form>
+      <footer>
+        <p>Derechos Reservados</p>
+        <ul>
+          <li><strong>Correo Electrónico:</strong> Carmen_lzar@gmail.com</li>
+          <li><strong>Teléfono:</strong> 01-3458723</li>
+          <li><strong>Dirección:</strong> Av. Caminos del Inca 245, Surco</li>
+        </ul>
+      </footer>
+  </body>
+</html>
